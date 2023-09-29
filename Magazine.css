@@ -1,0 +1,49 @@
+
+#news-section{
+    background-color:rgb(13, 106, 237);
+
+  }
+  .topbar ul {
+      position: relative;
+      float: right;
+      padding: 5px;
+      display: block;
+      margin-right: 20px;
+      margin-top: 10px;
+  }
+  .topbar li {
+      list-style: none;
+      display: inline-block;
+      font-weight: 500;
+  }
+  .card-section  {
+      
+      border-radius: 5px;
+
+  }
+  img{
+      max-width:100%;
+      height:auto;
+  }
+  .card-container {
+display: flex; /* Use flexbox to arrange cards in a row */
+justify-content: space-between; /* Adjust spacing between cards */
+padding: 75px;
+
+}
+
+.card {
+width: 400px; /* Set a fixed width for each card */
+margin-right: 10px; /* Adjust the margin between cards */
+/* Add other card styles like background, border, etc. */
+}
+
+/* Remove right margin from the last card to prevent overflow */
+.card:last-child {
+margin-right: 0;
+}
+/* media query for mobile screens */
+@media (max-width: 767px) {
+
+}
+
